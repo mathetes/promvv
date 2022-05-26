@@ -1,9 +1,16 @@
-<% var data = {
-  title: "Заголовок | Проект",
-  author: "Harrix"
-}; %>
+<% var data = { title: "Изделия ПРОМВВ | АО НЗИВ", author: "Mathetes" }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
+<!-- Page Content -->
+<div class="container wrapper">
+  <div class="row align-items-top my-5">
 
-<%= _.template(require('./../includes/footer.html').default)(data) %>
+
+    <div class="col-sm-12 col-lg-12">
+      <h2>Начало разработки</h2>
+      
+    </div>
+  </div>
+</div>
+  <%= _.template(require('./../includes/footer.html').default)(data) %>
+</div>
