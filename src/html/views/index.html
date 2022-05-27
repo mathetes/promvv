@@ -6,10 +6,10 @@
   <div class="row align-items-top my-5">
 
 
-    <div class="col-sm-12 col-lg-12">
-      <h2>Начало разработки</h2>
-      
-    </div>
+    <%= _.template(require('./../includes/manufacture.html').default)(data) %>
+    <%= _.template(require('./../includes/products.html').default)(data) %>
+    <%= _.template(require('./../includes/certificates.html').default)(data) %>
+    <%= _.template(require('./../includes/guide.html').default)(data) %>
   </div>
 </div>
   <%= _.template(require('./../includes/footer.html').default)(data) %>
