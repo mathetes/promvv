@@ -13,9 +13,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 913px;
-  padding-top: 37px;
-  // display: flex;
-  // flex-flow: row wrap;
+  padding-top: 50px;
+  position: relative;
 }
 
 .navbar__block {
@@ -39,10 +38,23 @@
   background-color: #000;
   height: 100px;
 }
+
+.nav-item {
+  margin-right: 75px;
+  font-size: 1.3em;
+}
+
+.nav-link {
+  color: #000;
+  &:hover {
+    color: #e6410b;
+  }
+}
 .nav-item-link {
-  text-transform: uppercase;
-  margin-left: 100px;
+  margin-left: 180px;
   width: 34%;
+  display: -webkit-inline-box;
+  margin-top: 75px;
 }
 .logonziv {
   width: 10rem;
@@ -60,17 +72,25 @@
 }
 .partners-text {
   text-align: right;
-  font-size: 2em;
-  padding: 0 50px 0 0;
+  font-size: 2.2em;
+  padding: 0 77px 0 0;
   text-transform: uppercase;
   font-weight: bold;
+  margin-left: -125px;
+  margin-top: -55px;
+  line-height: 1;
 }
 .partners-bg {
   background-color: #e6410b;
+  padding-top: 25px;
 }
 
 .partners-empty {
   background-color: #000;
+}
+
+.partners-number {
+  font-size: 2.5em;
 }
 
 .site-subject {
@@ -79,15 +99,22 @@
   margin-left: -100px;
   padding-top: 50px;
   padding-right: 20px;
+  width: 630px;
+  height: 665px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .subject-text {
   text-transform: uppercase;
   color: #fff;
-  font-size: 5em;
+  font-size: 5.3em;
   font-weight: bold;
-  margin-left: -70px;
   opacity: none;
+  z-index: 1000;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 80px;
 }
 
 .order-button {
