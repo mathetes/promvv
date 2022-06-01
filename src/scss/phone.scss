@@ -1,32 +1,33 @@
-.phone__block {
-  margin-left: 54px;
+// .phone__block {
+//   color: #000;
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+.order-call {
+  display: block;
+  text-align: center;
 }
 
 .phone_link {
-  color: #fff;
   text-decoration: none;
-  font-size: 1.2rem;
+  color: #000;
+  font-size: 1.5rem;
+  float: right;
+  margin-right: 34px;
   &:hover {
-    color: #65bc54;
+    color: #ff0000;
     font-weight: 600;
     text-decoration: none;
   }
 }
 
-.phone__icon {
-  width: 40px;
-  background-color: #001f3e;
+#buttonsright {
+  float: right;
+  width: 30%;
 }
-.fa-whatsapp {
-  color: #65bc54;
-}
-.contacts__block {
-  text-align: center;
-}
-.contacts__links {
-  color: #fff;
-  &:hover {
-    color: red;
-    text-decoration: none;
-  }
+
+#buttonsleft {
+  float: left;
+  width: 60%;
 }
