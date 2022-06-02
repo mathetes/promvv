@@ -1,10 +1,28 @@
 footer {
-  // position: absolute;
-  bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-
   background-color: #000;
   color: #fff;
   padding-top: 20px;
+}
+
+.company-name {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.footer-nav {
+  margin-top: 0;
+  margin-left: 255px;
+}
+
+.footer-nav-link {
+  color: #fff;
+}
+
+.footer-contacts {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #e6410b;
+  }
 }

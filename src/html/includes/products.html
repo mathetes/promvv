@@ -12,7 +12,7 @@
             >
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                  <div class="col-md-2">
+                  <div class="col-xl-4">
                     <div class="card">
                       <div class="card-img">
                         <img
@@ -20,12 +20,15 @@
                           class="img-fluid"
                         />
                       </div>
-                      <div class="card-img-overlay">Slide 1</div>
+                      <div class="card-name">
+                        Заряды ЛВВ-34-1 в виде лент, сформированные из
+                        эластичного состава
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-2">
+                  <div class="col-xl-4">
                     <div class="card">
                       <div class="card-img">
                         <img
@@ -33,12 +36,14 @@
                           class="img-fluid"
                         />
                       </div>
-                      <div class="card-img-overlay">Slide 2</div>
+                      <div class="card-name">
+                        Шашки Т-400 Г пресованные гидроизоливанные тротиловые
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-2">
+                  <div class="col-xl-4">
                     <div class="card">
                       <div class="card-img">
                         <img
@@ -46,12 +51,14 @@
                           class="img-fluid"
                         />
                       </div>
-                      <div class="card-img-overlay">Slide 3</div>
+                      <div class="card-name">
+                        Блоки тротиловые прессованные в полимерном корпусе
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-2">
+                  <div class="col-xl-4">
                     <div class="card">
                       <div class="card-img">
                         <img
@@ -59,7 +66,7 @@
                           class="img-fluid"
                         />
                       </div>
-                      <div class="card-img-overlay">Slide 4</div>
+                      <div class="card-name">УПИ</div>
                     </div>
                   </div>
                 </div>
@@ -98,7 +105,7 @@
   let items = document.querySelectorAll(".carousel .carousel-item");
 
   items.forEach((el) => {
-    const minPerSlide = 6;
+    const minPerSlide = 3;
     let next = el.nextElementSibling;
     for (var i = 1; i < minPerSlide; i++) {
       if (!next) {
