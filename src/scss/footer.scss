@@ -3,6 +3,7 @@ footer {
   background-color: #000;
   color: #fff;
   padding-top: 20px;
+  position: absolute;
 }
 
 .company-name {
@@ -20,6 +21,14 @@ footer {
 }
 
 .footer-contacts {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #e6410b;
+  }
+}
+
+.footer-phone {
   color: #fff;
   text-decoration: none;
   &:hover {

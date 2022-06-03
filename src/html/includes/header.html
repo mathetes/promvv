@@ -18,6 +18,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.bundle.css" />
 
     <title><%=title%></title>
@@ -26,7 +34,7 @@
     <div class="header-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 header-left">
+          <div class="col-3 header-left">
             <a
               target="_blank"
               href="http://promvv.nziv.ru"
@@ -41,7 +49,7 @@
               Промышленные<br />взрывчатые<br />вещества
             </h3>
           </div>
-          <div class="col-lg-9 header-right">
+          <div class="col-9 header-right">
             <div class="mystyle">
               <div class="inputfields">
                 <div id="buttonsleft">
@@ -52,9 +60,7 @@
                   <a href="tel:+7-968-222-00-52" class="phone_link"
                     ><span class="phone_number">+7-968-222-00-52 </span></a
                   >
-                  <div class="order-call">
-                    <button class="order-button">Заказать звонок</button>
-                  </div>
+                  <div class="order-call"></div>
                 </div>
                 <nav>
                   <div class="navbar__block">
@@ -93,7 +99,7 @@
       </div>
       <div class="container manufacture-section">
         <div class="row">
-          <div class="col-xl-11 offset-1">
+          <div class="col-xl-12">
             <h2 id="manufacture" class="main_h2">Производство</h2>
             <p>
               Производство промышленных взрывчатых веществ одно из основных
@@ -104,9 +110,97 @@
               вести полный цикл от разработки новых изделий, испытаний
               постановки их на производство до утилизации взрывчатых веществ
             </p>
-            <span>ПРОДУКЦИЯ ИМЕЕТ СЕРТИФИКАТЫ СООТВЕТСТВИЯ</span>
+            <span class="manufacture-sertif"
+              >ПРОДУКЦИЯ ИМЕЕТ СЕРТИФИКАТЫ СООТВЕТСТВИЯ</span
+            >
             <button class="order-button">Получить сертификат</button>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="call_me_modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="call_me_ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="call_me_ModalLabel">
+              Перезвоните мне:
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="call_me_form"
+              method="POST"
+              action="/php/call_me_sendMail.php"
+            >
+              <div class="form-group">
+                <label for="recipient-name" class="form-control-label"
+                  >Представьтесь, пожалуйста:</label
+                >
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <icon class="fa fa-2x fa-user"></icon>
+                  </div>
+                  &nbsp;
+                  <input
+                    required=""
+                    class="form-control"
+                    id="recipient-name"
+                    name="recipient-name"
+                    placeholder="Фамилия Имя Отчество"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="form-control-label"
+                  >Телефон для связи:</label
+                >
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <icon class="fa fa-2x fa-phone"></icon>
+                  </div>
+                  &nbsp;
+                  <input
+                    required=""
+                    class="form-control"
+                    id="recipient_phone"
+                    name="recipient_phone"
+                    placeholder="+7(xxx)-xxx-xx-xx"
+                  />
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary float-left"
+                onclick="ym(68362411,'reachGoal','callback'); return true;"
+              >
+                Заказать звонок
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary float-right"
+                data-dismiss="modal"
+              >
+                Закрыть
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
     </div>

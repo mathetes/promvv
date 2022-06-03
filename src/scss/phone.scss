@@ -12,14 +12,15 @@
 .phone_link {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.6em;
   float: right;
-  margin-right: 48px;
+  margin-right: 35px;
   font-weight: bold;
   &:hover {
     color: #ff0000;
     font-weight: 600;
     text-decoration: none;
+    cursor: pointer;
   }
 }
 
