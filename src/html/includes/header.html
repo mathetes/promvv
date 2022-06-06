@@ -60,7 +60,17 @@
                   <a href="tel:+7-968-222-00-52" class="phone_link"
                     ><span class="phone_number">+7-968-222-00-52 </span></a
                   >
-                  <div class="order-call"></div>
+                  <div class="order-call">
+                    <!-- Button trigger modal -->
+                    <button
+                      type="button"
+                      class="btn modalbutton__callme order-button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#callMeModal"
+                    >
+                      Заказать звонок
+                    </button>
+                  </div>
                 </div>
                 <nav>
                   <div class="navbar__block">
@@ -119,20 +129,18 @@
       </div>
     </div>
 
+    <!-- Modal -->
     <div
       class="modal fade"
-      id="call_me_modal"
+      id="callMeModal"
       tabindex="-1"
-      role="dialog"
-      aria-labelledby="call_me_ModalLabel"
+      aria-labelledby="callMeModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="call_me_ModalLabel">
-              Перезвоните мне:
-            </h4>
+            <h4 class="modal-title" id="callMeModalLabel">Перезвоните мне:</h4>
             <button
               type="button"
               class="close"
