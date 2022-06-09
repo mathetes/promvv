@@ -21,6 +21,15 @@
   left: 100%;
 }
 
+#bombutton,
+#upibutton,
+#btpbutton,
+#lvvbutton {
+  position: relative;
+  bottom: 0;
+  z-index: 1000;
+}
+
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;
