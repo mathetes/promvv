@@ -28,6 +28,10 @@
   position: relative;
   bottom: 0;
   z-index: 1000;
+  &:hover {
+    color: #fff;
+    background-color: #d0451b;
+  }
 }
 
 @media (max-width: 767px) {

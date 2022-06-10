@@ -12,7 +12,7 @@
   background-image: url("./../img/derrick.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 913px;
+  min-height: 830px;
   padding-top: 50px;
   position: relative;
 }
@@ -56,7 +56,7 @@
   margin-left: 180px;
   width: 34%;
   display: -webkit-inline-box;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 .logonziv {
   width: 10rem;
@@ -98,12 +98,12 @@
 
 .site-subject {
   background-color: #003399;
-  opacity: 0.32;
+  opacity: 0.72;
   margin-left: -100px;
   padding-top: 50px;
   padding-right: 20px;
   width: 630px;
-  height: 665px;
+  height: 607px;
   position: absolute;
   bottom: 0px;
 }
@@ -128,11 +128,12 @@
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
-  font-size: 1.2em;
   text-decoration: none;
   text-shadow: 0px -1px 0px #854629;
   margin-left: 30px;
+  font-size: 1.2em;
+  line-height: 1.3;
+  padding: 0 23px;
   &:hover {
     background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
     background-color: #bc3315;
