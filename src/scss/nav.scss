@@ -18,17 +18,18 @@
 }
 
 .navbar__block {
-  // position: relative;
-  // width: 100%;
-  // display: inline-flex;
+  display: flex;
+  font-size: large;
+  position: absolute;
+  padding-top: 20px;
 }
 
 .slogan {
-  margin-left: 140px;
   display: inline-block;
   float: left;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 700;
+  margin-left: 65px;
 }
 
 .logo-link {
@@ -53,10 +54,10 @@
   }
 }
 .nav-item-link {
-  margin-left: 180px;
-  width: 34%;
   display: -webkit-inline-box;
+  margin-left: 180px;
   margin-top: 50px;
+  width: 34%;
 }
 .logonziv {
   width: 10rem;
@@ -121,10 +122,10 @@
 }
 
 .order-button {
-  box-shadow: 6px 8px 8px -1px #000;
+  // box-shadow: 4px 4px 4px -1px #000;
   background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
   background-color: #d0451b;
-  border-radius: 7px;
+  // border-radius: 7px;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;

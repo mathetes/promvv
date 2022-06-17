@@ -1,9 +1,3 @@
-// .phone__block {
-//   color: #000;
-//   display: flex;
-//   justify-content: flex-end;
-// }
-
 .order-call {
   display: block;
   text-align: center;
@@ -26,10 +20,11 @@
 
 #buttonsright {
   float: right;
-  width: 30%;
+  width: 52%;
+  display: inline-flex;
 }
 
 #buttonsleft {
   float: left;
-  width: 60%;
+  width: 40%;
 }
