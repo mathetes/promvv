@@ -1,3 +1,54 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  .slogan {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  .phone_link {
+    margin-right: 0;
+    font-size: 1.2em;
+  }
+  .modalbutton__callme {
+    background-color: #d63944;
+    font-size: 1.2em;
+    min-width: 50px;
+  }
+  .nav-item-media {
+    margin-right: 20px;
+    font-size: 1em;
+  }
+  .site-subject {
+    left: -12px;
+  }
+  .subject-text {
+    font-size: 3em;
+    margin-left: 0px;
+    margin-top: 230px;
+  }
+  .navbar__block {
+    left: 75px;
+  }
+  .partners-text {
+    font-size: 1.5em;
+    margin-top: -45px;
+    padding: 0 235px 0 0;
+  }
+  .manufacture-sertif {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  .manufacture-text {
+    font-size: 0.8em;
+  }
+  .manufacture-sertif {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .order-button {
+    margin: 0 auto;
+  }
+  .sertif-link .link-guide {
+    font-size: 1.1em;
+    line-height: 2;
+  }
 }

@@ -2,6 +2,9 @@
   border: none;
   cursor: pointer;
 }
+.card-props {
+  min-height: 440px;
+}
 
 .card-name {
   padding: 1em 3.5em 2.5em;
@@ -28,6 +31,7 @@
   position: relative;
   bottom: 0;
   z-index: 1000;
+  margin-top: 55px;
   &:hover {
     color: #fff;
     background-color: #d0451b;
