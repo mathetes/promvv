@@ -1,12 +1,109 @@
 /* Landscape phones and smaller */
-@media (max-width: 480px) {
-  .modalbutton__callme {
-    min-width: 100px;
-    background-color: #d63944;
+@media (max-width: 576px) {
+  .logonziv {
+    width: 12rem;
+    padding-bottom: 20px;
+  }
+  .slogan {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  .buttonsleft,
+  .buttonsright {
+    width: 50%;
+  }
+  #buttonsright {
+    display: block;
   }
   .navbar__block {
-    position: relative;
-    width: 100%;
-    display: inline-grid;
+    left: 5px;
+  }
+  .phone_link {
+    margin-right: 0;
+    font-size: 1.2em;
+  }
+  .modalbutton__callme {
+    background-color: #d63944;
+    font-size: 1.2em;
+    min-width: 50px;
+  }
+  .nav-item-media {
+    margin-right: 20px;
+    font-size: 1em;
+  }
+  .site-subject {
+    left: -12px;
+  }
+  .subject-text {
+    font-size: 3em;
+    margin-left: 0px;
+    margin-top: 230px;
+  }
+  .more-info {
+    display: block;
+    text-align: center;
+    max-width: 60%;
+    font-size: 1em;
+    min-width: 90%;
+    margin-top: 100px;
+  }
+  .navbar__block {
+    left: 5px;
+    font-size: 10px;
+  }
+  .nav-item-link {
+    margin-top: 15px;
+  }
+
+  .partners-text {
+    font-size: 1.5em;
+    margin-top: -45px;
+    padding: 0 235px 0 0;
+  }
+  .manufacture-sertif {
+    font-size: 1em;
+    margin-left: 0;
+  }
+  .manufacture-text {
+    font-size: 0.8em;
+  }
+  .manufacture-sertif {
+    font-size: 0.9em;
+    text-align: center;
+  }
+  .order-button {
+    display: block;
+    text-align: center;
+    max-width: 60%;
+    margin-left: 20px;
+  }
+  .card-name {
+    padding: 0 0 0 0;
+    padding-bottom: 8em;
+  }
+
+  .sertif-link,
+  .link-guide {
+    font-size: 1.1em;
+    line-height: 5;
+  }
+
+  .icon-sertificates,
+  .icon-guide {
+    background-image: url(../img/icon-sert.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    vertical-align: bottom;
+    width: 50px;
+    background-size: cover;
+  }
+  .company-name {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .navbar__block {
+    display: content;
   }
 }

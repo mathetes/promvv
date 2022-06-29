@@ -1,5 +1,9 @@
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 991px) {
+  .logonziv {
+    width: 12rem;
+    padding-bottom: 40px;
+  }
   .slogan {
     font-size: 1.2em;
     margin-left: 10px;
@@ -25,6 +29,14 @@
     margin-left: 0px;
     margin-top: 230px;
   }
+  .more-info {
+    display: block;
+    text-align: center;
+    max-width: 60%;
+    font-size: 1em;
+    min-width: 90%;
+    margin-top: 100px;
+  }
   .navbar__block {
     left: 75px;
   }
@@ -45,10 +57,37 @@
     text-align: center;
   }
   .order-button {
-    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 60%;
   }
-  .sertif-link .link-guide {
+  .card-name {
+    padding: 0 0 0 0;
+    padding-bottom: 8em;
+  }
+
+  .sertif-link,
+  .link-guide {
     font-size: 1.1em;
-    line-height: 2;
+    line-height: 5;
+  }
+
+  .icon-sertificates,
+  .icon-guide {
+    background-image: url(../img/icon-sert.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    vertical-align: bottom;
+    width: 50px;
+    background-size: cover;
+  }
+  .company-name {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .navbar__block {
+    display: content;
   }
 }
