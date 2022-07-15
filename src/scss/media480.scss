@@ -5,22 +5,26 @@
     padding-bottom: 20px;
   }
   .slogan {
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-left: 10px;
+    width: 100%;
+    text-align: center;
   }
   .buttonsleft,
   .buttonsright {
-    width: 50%;
+    width: 100%;
   }
   #buttonsright {
     display: block;
   }
   .navbar__block {
-    left: 5px;
+    font-size: 9px;
+    left: 22px;
+    padding-top: 80px;
   }
   .phone_link {
-    margin-right: 0;
-    font-size: 1.2em;
+    margin-right: 20px;
+    font-size: 0.8em;
   }
   .modalbutton__callme {
     background-color: #d63944;
@@ -32,10 +36,17 @@
     font-size: 1em;
   }
   .site-subject {
-    left: -12px;
+    bottom: 20px;
+    height: 607px;
+    margin-left: -10;
+    opacity: 0.72;
+    padding-right: 20px;
+    padding-top: 3px;
+    position: absolute;
+    width: 500px;
   }
   .subject-text {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-left: 0px;
     margin-top: 230px;
   }
@@ -48,7 +59,7 @@
     margin-top: 100px;
   }
   .navbar__block {
-    left: 5px;
+    left: 25px;
     font-size: 10px;
   }
   .nav-item-link {
@@ -56,13 +67,13 @@
   }
 
   .partners-text {
-    font-size: 1.5em;
-    margin-top: -45px;
-    padding: 0 235px 0 0;
+    font-size: 1em;
+    padding: 0 140px 0 0;
   }
   .manufacture-sertif {
     font-size: 1em;
     margin-left: 0;
+    text-align: center;
   }
   .manufacture-text {
     font-size: 0.8em;
@@ -72,10 +83,12 @@
     text-align: center;
   }
   .order-button {
-    display: block;
-    text-align: center;
-    max-width: 60%;
-    margin-left: 20px;
+    display: initial;
+    margin-left: 0px;
+    max-width: 90%;
+    font-size: 1rem;
+    margin-top: 15px;
+    line-height: 2rem;
   }
   .card-name {
     padding: 0 0 0 0;
@@ -84,8 +97,8 @@
 
   .sertif-link,
   .link-guide {
-    font-size: 1.1em;
-    line-height: 5;
+    font-size: 0.7em;
+    line-height: 2;
   }
 
   .icon-sertificates,
@@ -105,5 +118,29 @@
   }
   .navbar__block {
     display: content;
+  }
+  .manufacture-section {
+    padding: 0 20px 0px;
+    font-size: 1em;
+  }
+  .wrapper-sertif {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .main_h2 {
+    margin: 50px 0 20px;
+  }
+  .main_h2 {
+    margin: 50px 0 20px;
+  }
+  .icon-guide,
+  .icon-sertificates {
+    display: none;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 50px;
+    outline: #000;
+    width: 50px;
   }
 }

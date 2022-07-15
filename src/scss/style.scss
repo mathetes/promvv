@@ -46,12 +46,6 @@ $font-stack: RobotoCondensed;
   margin-bottom: 30px;
 }
 
-.main_h2 {
-  text-align: center;
-  margin: 50px 0 30px;
-  text-transform: uppercase;
-}
-
 .links {
   color: #000; /* Цвет ссылок */
   padding: 20px 0;
@@ -63,4 +57,13 @@ $font-stack: RobotoCondensed;
   background-color: #orange; /* Цвет активных ссылок */
   color: #fff;
   font-weight: bold;
+}
+
+.container-wrapper {
+  margin-bottom: 60px;
+}
+
+.black-bg {
+  background-color: #000;
+  height: 100%;
 }
